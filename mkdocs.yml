@@ -4,5 +4,3 @@ theme:
 
 nav:
   - 首页: index.md
-  - Python: python.md
-  - 机器学习: ml.md
