@@ -1,0 +1,8 @@
+site_name: My Knowledge Site
+theme:
+  name: material
+
+nav:
+  - 首页: index.md
+  - Python: python.md
+  - 机器学习: ml.md
