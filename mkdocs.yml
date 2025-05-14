@@ -1,7 +1,19 @@
 site_name: 数据科学研究生进阶指南
 theme:
-  name: material
+  palette:
+
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
 
 nav:
-  - 首页: index.md
+  - 前言: index.md
   - 背景介绍: introduction/bg-intro.md
