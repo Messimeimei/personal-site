@@ -1,24 +1,29 @@
 site_name: 数据科学研究生-进阶指南
 repo_url: https://github.com/Messimeimei/personal-site  # 用于展示github相关信息
 repo_name: ds-personal-site
+copyright: Copyright @ 2025-present WhuMesiimeimei # 版权展示
+
 theme:
   name: material
   language: zh
   icon:
     repo: fontawesome/brands/github
   palette:
-
-    # Palette toggle for light mode
+    # 切换为白天模式
     - scheme: default
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
 
-    # Palette toggle for dark mode
+    # 切换为夜晚模式
     - scheme: slate
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+  # 一些交互特性的设置
+  features:
+    - header.autohide
+    - navigation.footer
 nav:
   - 前言: index.md
   - 背景介绍: introduction/bg-intro.md
