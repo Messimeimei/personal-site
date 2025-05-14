@@ -12,13 +12,13 @@ theme:
   palette:
     - scheme: default         # ☀️ 白天模式
       primary: deep orange           # 顶栏色：亮蓝科技感
-      accent: light green     # 强调色：荧光绿按钮、链接
+      accent: deep orange     # 强调色：荧光绿按钮、链接
       toggle:
         icon: material/weather-sunny
         name: 切换至夜晚模式
     - scheme: slate           # 🌙 夜间模式
       primary: cyan      # 顶栏色：深蓝灰，沉稳科技感
-      accent: lime            # 强调色：亮绿色，突出显示
+      accent: cyan            # 强调色：亮绿色，突出显示
       toggle:
         icon: material/weather-night
         name: 切换至白天模式
