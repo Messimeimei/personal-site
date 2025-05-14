@@ -23,6 +23,8 @@ theme:
   # 一些交互特性的设置
   features:
     - header.autohide
+    - navigation.sections
+    - navigation.path
 nav:
   - 前言: index.md
   - 背景介绍: introduction/bg-intro.md
