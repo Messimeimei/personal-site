@@ -24,7 +24,6 @@ theme:
   features:
     - header.autohide
     - navigation.sections
-    - navigation.tabs
 nav:
   - 前言: index.md
   - 背景介绍: introduction/bg-intro.md
