@@ -1,5 +1,6 @@
-site_name: 数据科学研究生进阶指南
+site_name: 数据科学研究生-进阶指南
 repo_url: https://github.com/Messimeimei/personal-site  # 用于展示github相关信息
+repo_name: ds-personal-site
 theme:
   name: material
   language: zh
