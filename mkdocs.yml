@@ -1,5 +1,7 @@
 site_name: 数据科学研究生进阶指南
 theme:
+  name: material
+  language: zh
   palette:
 
     # Palette toggle for light mode
