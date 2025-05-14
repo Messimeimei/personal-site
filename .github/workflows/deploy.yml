@@ -1,4 +1,4 @@
-name: Deploy MkDocs to GitHub Pages
+name: 部署网页并更新网站内容
 
 on:
   push:

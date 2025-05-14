@@ -1,0 +1,44 @@
+name: 发布全新版本，但是不会更新网站内容，需要先部署然后再发布新版本
+
+on:
+  push:
+    tags:
+      - 'v*'  # 只有打了 tag 如 v1.0.0 时才触发
+
+permissions:
+  contents: write  # 允许创建 Release
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install MkDocs and Material theme
+        run: pip install mkdocs mkdocs-material
+
+      - name: Build MkDocs site
+        run: mkdocs build
+
+      - name: Zip the site folder
+        run: zip -r site.zip site/
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v1
+        with:
+          name: Release ${{ github.ref_name }}
+          tag_name: ${{ github.ref_name }}
+          body: |
+            🎉 MkDocs 构建自动发布！
+
+            此版本包括最新构建的站点文件。
+          files: site.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
