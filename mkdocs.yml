@@ -14,12 +14,14 @@ theme:
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
+        primary: deep orange
 
     # 切换为夜晚模式
     - scheme: slate
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+        primary: cyan
   # 一些交互特性的设置
   features:
     - header.autohide
