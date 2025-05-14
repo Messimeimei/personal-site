@@ -1,7 +1,10 @@
 site_name: 数据科学研究生进阶指南
 theme:
+  repo_url: https://github.com/Messimeimei/personal-site  # 用于展示github相关信息
   name: material
   language: zh
+  icon:
+    repo: fontawesome/brands/github
   palette:
 
     # Palette toggle for light mode
