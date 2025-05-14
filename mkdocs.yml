@@ -1,7 +1,7 @@
-site_name: My Knowledge Site
+site_name: 数据科学研究生进阶指南
 theme:
   name: material
 
 nav:
   - 首页: index.md
-  - 介绍: intro.md
+  - 背景介绍: introduction/bg-intro.md
