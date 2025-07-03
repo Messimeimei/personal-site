@@ -31,6 +31,6 @@ nav:
   - 多智能体:
       - 多智能体介绍: multi-agent/start.md
   - MCP:
-      - MCP协议介绍: MCP/strat.md
+      - MCP协议介绍: MCP/start.md
   - FastAPI:
       - FastAPI介绍: FastAPI/start.md
