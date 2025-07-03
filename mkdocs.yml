@@ -35,4 +35,4 @@ nav:
   - FastAPI:
       - FastAPI介绍: FastAPI/start.md
   - 本地桌面Agent:
-      - 相关资料: Os-Agent/materials.md
+      - 相关资料: OS-Agent/materials.md
