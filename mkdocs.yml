@@ -36,3 +36,4 @@ nav:
       - FastAPI介绍: FastAPI/start.md
   - 本地桌面Agent:
       - 相关资料: OS-Agent/materials.md
+      - 论文解读: OS-Agent/papers-interpretation.md
