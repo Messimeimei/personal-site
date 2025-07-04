@@ -2,12 +2,12 @@
 
 ---
 
-令人感动，许多论文都提到了《钢铁侠》中的J.A.R.V.I.S，构建强大的智能体令人向往！！！
+感动，许多论文都提到了《钢铁侠》中的J.A.R.V.I.S，构建强大的智能体令人向往！！！
 
-<img src="../assets/os-agent/1.png" alt="论文1" style="width: 60%; max-width: 400px; height: auto;">
+<img src="assets/os-agent/1.png" alt="论文1" style="width: 60%; max-width: 400px; height: auto;">
 
 
-<img src="../assets/os-agent/2.png" alt="论文1" style="width: 60%; max-width: 400px; height: auto;">
+<img src="assets/os-agent/2.png" alt="论文1" style="width: 60%; max-width: 400px; height: auto;">
 
 # 一、智能体框架介绍
 
