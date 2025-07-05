@@ -4,10 +4,10 @@
 
 感动，许多论文都提到了《钢铁侠》中的J.A.R.V.I.S，构建强大的智能体令人向往！！！
 
-![论文1](../assets/os-agent/1.png){ .zoom }
+![论文1](../assets/os-agent/1.png)
 
 
-![论文2](../assets/os-agent/2.png){ .zoom }
+![论文2](../assets/os-agent/2.png)
 
 # 一、相关背景
 
