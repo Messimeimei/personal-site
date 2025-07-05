@@ -4,27 +4,27 @@
 
 ## 📚 一、核心论文与综述
 
-1. **OS‑Copilot: Towards Generalist Computer Agents with Self‑Improvement**
+### 1. **OS‑Copilot: Towards Generalist Computer Agents with Self‑Improvement**
 
-   * 构建通用电脑 Agent 框架，支持终端、文件、多媒体、第三方应用操作，并展示了能自我提升的实体 Agent（FRIDAY）；在 GAIA 基准上泛化能力提升显著 ([arxiv.org][1])。
+* 介绍了一个实战项目，OS-Copilot，构建了通用电脑 Agent 框架，支持终端、文件、多媒体、第三方应用操作，并能自我提升（FRIDAY）；在 GAIA 基准上泛化能力提升显著 ([arxiv.org][1])。
 
-2. **Gui‑Brained GUI Agents: A Survey**（2024/11）
+### 2. **Gui‑Brained GUI Agents: A Survey**（2024/11）
 
    * 系统回顾了 GUI Agent 技术进展，涵盖视觉感知、控制策略、本地与 Web 应用兼容 ([arxiv.org][2], [github.com][3])。
 
-3. **OS Agents: A Survey on MLLM‑based Agents for Computer, Phone and Browser Use** (ACL 2025 Oral)
+### 3. **OS Agents: A Survey on MLLM‑based Agents for Computer, Phone and Browser Use** (ACL 2025 Oral)
 
    * 深入总结 MLLM 驱动的电脑手机场景 Agent，包含模型、环境、评估与安全性 ([github.com][4])。
 
-4. **COLA: A Scalable Multi‑Agent Framework For Windows UI Task Automation**（2025）
+### 4. **COLA: A Scalable Multi‑Agent Framework For Windows UI Task Automation**（2025）
 
    * 提出动态任务分解、更强容错能力及人机回退机制的新框架 ([arxiv.org][5])。
 
-5. **WinClick: GUI Grounding with Multimodal LLMs**（2025）
+### 5. **WinClick: GUI Grounding with Multimodal LLMs**（2025）
 
    * 专注于 Windows GUI 跨应用操作中视觉定位问题，提出新预训练方式与 WinSpot 数据集 ([arxiv.org][6])。
 
-6. **CoCo‑Agent: A Comprehensive Cognitive MLLM Agent for Smartphone GUI Automation**（2024）
+### 6. **CoCo‑Agent: A Comprehensive Cognitive MLLM Agent for Smartphone GUI Automation**（2024）
 
    * 针对移动端 GUI 操作，融合全局环境感知与动作预测机制 ([arxiv.org][7])。
 
