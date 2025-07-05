@@ -26,6 +26,13 @@ theme:
   features:
     - header.autohide
     - navigation.top
+    - content.zoom  # ✅ 启用缩放功能
+
+markdown_extensions:
+  - admonition
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+
 nav:
   - 前言: index.md
   - 多智能体:
