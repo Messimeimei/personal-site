@@ -10,7 +10,7 @@
 
 ### 2. **Gui‑Brained GUI Agents: A Survey**（2024/11）
 
-   * 系统回顾了 GUI Agent 技术进展，涵盖视觉感知、控制策略、本地与 Web 应用兼容 ([arxiv.org][2], [github.com][3])。
+   * 综合介绍了 GUI Agent 的相关知识，包括发展历史、设计框架、应用场景等待，提供了很多拓展资料 ([arxiv.org][2], [github.com][3])。
 
 ### 3. **OS Agents: A Survey on MLLM‑based Agents for Computer, Phone and Browser Use** (ACL 2025 Oral)
 
@@ -30,31 +30,31 @@
 
 ---
 
-## 🛠 开源项目与工具
+## 🛠 二、开源项目与工具
 
-1. **Agent S**
+### 1. **AgentS**
 
    * 一个跨平台的 GUI 自动化 Agent 框架，支持 Windows、macOS 和模拟环境，具备 GUI 感知与自主操作功能 ([github.com][8])。
 
-2. **WorldGUI‑Agent**
+### 2. **WorldGUI‑Agent**
 
    * 自反式桌面 GUI Agent，集成规划器、执行前校验、执行后评估三阶段机制；6 月释放基准数据集 WorldGUI ([github.com][9])。
 
-3. **Clevrr Computer**
+### 3. **Clevrr Computer**
 
    * 基于 PyAutoGUI 和截图构建的多模态桌面 Agent，支持浮动 UI 与决策链，兼容 OpenAI/Gemini 模型 ([kdjingpai.com][10])。
 
-4. **Open Interpreter**（社区推荐）
+### 4. **Open Interpreter**（社区推荐）
 
    * 配合 PyAutoGUI + OpenCV，实现鼠标、键盘与屏幕读写控制的自动化 Agent ([reddit.com][11])。
 
-5. **trycua/acu (“Awesome Agents for Computer Use”)**
+### 5. **trycua/acu (“Awesome Agents for Computer Use”)**
 
    * 汇总了 Agent 领域的论文、项目、工具、 benchmark 等资源，可作为技术导航库 ([github.com][3])。
 
 ---
 
-## 🧰 技术库、框架与实作教程
+## 🧰 三、技术库、框架与实作教程
 
 * **CopilotKit + LangGraph 实现 Agent（CoAgents）**
 
@@ -70,7 +70,7 @@
 
 ---
 
-## 🎥 视频资源（YouTube 演示）
+## 🎥 四、视频资源（YouTube 演示）
 
 1. **How to Make Your Own Local LLM Copilot…**
 
@@ -82,7 +82,7 @@
 
 ---
 
-## ✅ 推荐学习路径
+## ✅ 五、推荐学习路径
 
 1. **理论+综述入门**：先读 OS‑Copilot、Survey、COLA、WinClick 等论文，了解体系结构与关键架构设计。
 2. **工具评估**：参考trycua/acu目录，快速掌握主流开源项目，并尝试 Agent S、WorldGUI‑Agent 和 Clevrr Computer。
