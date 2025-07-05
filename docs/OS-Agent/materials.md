@@ -2,7 +2,7 @@
 
 ---
 
-## 📚 核心论文与综述
+## 📚 一、核心论文与综述
 
 1. **OS‑Copilot: Towards Generalist Computer Agents with Self‑Improvement**
 
