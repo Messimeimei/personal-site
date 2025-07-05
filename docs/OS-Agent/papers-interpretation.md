@@ -4,10 +4,19 @@
 
 感动，许多论文都提到了《钢铁侠》中的J.A.R.V.I.S，构建强大的智能体令人向往！！！
 
-<img src="../assets/os-agent/1.png" alt="论文1" style="width: 60%; max-width: 400px; height: auto;">
+![论文1](assets/os-agent/1.png)
 
 
-<img src="../assets/os-agent/2.png" alt="论文1" style="width: 60%; max-width: 400px; height: auto;">
+![论文2](assets/os-agent/2.png)
+
+# 一、相关背景
+
+## 1.Automation System
+早期的自动GUI测试系统，算是GUI AGENT的前身，被用于自动完成GUI的功能测试。包括随机的测试和基于规则、基于脚本语言以及各种工具的测试。这些为GUI AUTOMATION奠定了基础。
+
+## 2.深度学习的引入
+后来随着深度学习的发展，CV和NLP技术的进步，GUI的自动化变得更加智能，CV帮助GUI理解交互界面的各种元素，从而更好的与这些元素进行交互以完成任务
+
 
 # 一、智能体框架介绍
 
